@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-banner">
+        <svg class="copilot-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="currentColor" opacity=".3"/><path d="M9.5 8.5C9.5 7.67 10.17 7 11 7h2c.83 0 1.5.67 1.5 1.5v1c0 .83-.67 1.5-1.5 1.5h-2c-.83 0-1.5-.67-1.5-1.5v-1z" fill="currentColor"/><path d="M7 13.5C7 12.67 7.67 12 8.5 12h7c.83 0 1.5.67 1.5 1.5v2c0 .83-.67 1.5-1.5 1.5h-7c-.83 0-1.5-.67-1.5-1.5v-2z" fill="currentColor"/><circle cx="9.5" cy="14.5" r="1" fill="var(--bg-top)"/><circle cx="14.5" cy="14.5" r="1" fill="var(--bg-top)"/></svg>
+        <span data-i18n="banner">Built with <strong>GitHub Copilot</strong> — our main AI development tool</span>
+    </div>
+    <header>
+           <img src="logoHyperWeb.png" alt="logo hyper web" class="logo-img" loading="lazy">
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="mainNav">
+        <a href="index.html" data-i18n="nav-home">Home</a>
+        <a href="about.html" data-i18n="nav-about">About Us</a>
+        <a href="services.html" data-i18n="nav-services">Services</a>
+        <a href="oferta.html" data-i18n="nav-oferta">Pricing</a>
+        <a href="portfolio.html" data-i18n="nav-portfolio">Portfolio</a>
+        </nav>
+    </header>
+    <main>
+        <section class="Hero">
+            <!-- Animated background orbs -->
+            <div class="hero-orbs">
+                <div class="h-orb h-orb-1"></div>
+                <div class="h-orb h-orb-2"></div>
+                <div class="h-orb h-orb-3"></div>
+            </div>
+            <!-- Floating particles -->
+            <div class="hero-particles">
+                <span class="particle p1"></span>
+                <span class="particle p2"></span>
+                <span class="particle p3"></span>
+                <span class="particle p4"></span>
+                <span class="particle p5"></span>
+                <span class="particle p6"></span>
+                <span class="particle p7"></span>
+                <span class="particle p8"></span>
+            </div>
+            <p class="hero-text">
+                <span class="hero-eyebrow" data-i18n="ix-eyebrow"><span class="eyebrow-dot"></span>Creative Web Agency</span>
+                <span class="hero-line hero-line-1" data-i18n="ix-h1-1">Build a</span>
+                <span class="hero-line hero-line-2" data-i18n="ix-h1-2">Tech&#8209;Ready Website</span>
+                <span class="hero-divider"></span>
+                <span class="hero-sub" data-i18n="ix-sub1">We design fast, clean, and scalable sites that make your brand look sharp.</span>
+                <span class="hero-sub" data-i18n="ix-sub2">From landing pages to full business websites &#8212; we focus on clarity, speed, and results.</span>
+                <a class="hero-cta" href="oferta.html#contact" data-i18n="ix-cta">
+                    <span class="cta-text">Start your project with us</span>
+                    <span class="cta-arrow">&rarr;</span>
+                </a>
+            </p>
+            <!-- Animated scroll indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span data-i18n="ix-scroll">Scroll</span>
+            </div>
+        </section>
+
+        <!-- Animated counter banner -->
+        <section class="ix-counter-bar">
+            <div class="ix-counter">
+                <span class="ix-counter-num">50+</span>
+                <span class="ix-counter-label" data-i18n="ix-cnt-projects">Projects</span>
+            </div>
+            <div class="ix-counter-divider"></div>
+            <div class="ix-counter">
+                <span class="ix-counter-num">&lt;2s</span>
+                <span class="ix-counter-label" data-i18n="ix-cnt-load">Load Time</span>
+            </div>
+            <div class="ix-counter-divider"></div>
+            <div class="ix-counter">
+                <span class="ix-counter-num">100%</span>
+                <span class="ix-counter-label" data-i18n="ix-cnt-satisfaction">Satisfaction</span>
+            </div>
+            <div class="ix-counter-divider"></div>
+            <div class="ix-counter">
+                <span class="ix-counter-num">4</span>
+                <span class="ix-counter-label" data-i18n="ix-cnt-experts">Experts</span>
+            </div>
+        </section>
+
+        <section class="s-about">
+            <h2 class="section-title ix-reveal" data-i18n="ix-why-title">Why We're Different</h2>
+            <p class="section-lead ix-reveal" style="text-align: center; margin-bottom: 40px;" data-i18n="ix-why-lead">We don't just build websites &#8212; we craft digital experiences that turn visitors into loyal customers</p>
+            <section class="bento">
+                <div class="bento-item bento-hero">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-tag" data-i18n="ix-bento-tag">Core</span>
+                        <h3>Lightning<br><span class="bento-accent">Speed</span></h3>
+                        <p data-i18n="ix-bento-speed-p">Every website we build loads in milliseconds. Optimized, compressed, and blazing fast.</p>
+                        <div class="bento-badge" data-i18n="ix-bento-speed-badge">&#9889; Sub-2s load time</div>
+                    </div>
+                </div>
+                <div class="bento-item bento-sm bento-design">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-emoji">&#127912;</span>
+                        <h3>Premium<br>Design</h3>
+                        <p data-i18n="ix-bento-design-p">Bold, modern layouts that make your brand unforgettable.</p>
+                    </div>
+                </div>
+                <div class="bento-item bento-sm bento-responsive">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-emoji">&#128241;</span>
+                        <h3>Fully<br>Responsive</h3>
+                        <p data-i18n="ix-bento-resp-p">Desktop, tablet, mobile &#8212; pixel-perfect everywhere.</p>
+                    </div>
+                </div>
+                <div class="bento-item bento-wide bento-conversion">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-emoji">&#128202;</span>
+                        <div>
+                            <h3 data-i18n="ix-bento-conv-h">Conversion Focused</h3>
+                            <p data-i18n="ix-bento-conv-p">Every element designed to convert visitors into customers.</p>
+                        </div>
+                        <div class="bento-pills">
+                            <span class="pill" data-i18n="ix-pill-cta">CTA Tested</span>
+                            <span class="pill" data-i18n="ix-pill-seo">SEO Ready</span>
+                            <span class="pill" data-i18n="ix-pill-analytics">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item bento-sm bento-code">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-emoji">&#11088;</span>
+                        <h3>Scalable<br>Code</h3>
+                        <p data-i18n="ix-bento-code-p">Clean architecture. Zero tech debt.</p>
+                    </div>
+                </div>
+                <div class="bento-item bento-sm bento-team">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-emoji">&#128188;</span>
+                        <h3>Expert<br>Team</h3>
+                        <p data-i18n="ix-bento-team-p">MTI students pushing web boundaries.</p>
+                    </div>
+                </div>
+                <div class="bento-item bento-cta-card">
+                    <div class="bento-glow"></div>
+                    <div class="bento-inner">
+                        <span class="bento-emoji">&#127919;</span>
+                        <div>
+                            <h3 data-i18n="ix-bento-cta-h">Ready to build something great?</h3>
+                            <p data-i18n="ix-bento-cta-p">We don't just launch sites &#8212; we build growth engines.</p>
+                        </div>
+                        <a class="bento-btn" href="oferta.html#contact" data-i18n="ix-bento-cta-btn">Start Your Project &#8594;</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="s-why-us">
+            <div class="why-intro">
+                <h2 class="section-title ix-reveal" data-i18n="ix-choose-title">Why Choose Us</h2>
+                <p class="section-lead" data-i18n="ix-choose-lead">We are a focused student team from MTI that treats every project like a showcase. We build clean, fast, and modern websites with a tech-first mindset.</p>
+                <div class="why-stats">
+                    <div class="stat ix-stat-glow">
+                        <span class="stat-num" data-i18n="ix-stat-fast">Fast</span>
+                        <span class="stat-label" data-i18n="ix-stat-delivery">Delivery</span>
+                    </div>
+                    <div class="stat ix-stat-glow">
+                        <span class="stat-num" data-i18n="ix-stat-clean">Clean</span>
+                        <span class="stat-label" data-i18n="ix-stat-code">Code</span>
+                    </div>
+                    <div class="stat ix-stat-glow">
+                        <span class="stat-num" data-i18n="ix-stat-modern">Modern</span>
+                        <span class="stat-label" data-i18n="ix-stat-design">Design</span>
+                    </div>
+                    <div class="stat ix-stat-glow">
+                        <span class="stat-num" data-i18n="ix-stat-smart">Smart</span>
+                        <span class="stat-label" data-i18n="ix-stat-structure">Structure</span>
+                    </div>
+                </div>
+                <div class="why-underline"></div>
+                <a class="why-cta hero-cta" href="oferta.html#contact" data-i18n="ix-choose-cta">Want to work with us?</a>
+            </div>
+            <div class="why-grid">
+                <article class="why-card ix-tilt-card">
+                    <div class="ix-card-shine"></div>
+                    <h3 data-i18n="ix-card-strategy-h">Strategy First</h3>
+                    <p data-i18n="ix-card-strategy-p">We start with your goal and build a structure that supports conversion and clarity.</p>
+                </article>
+                <article class="why-card ix-tilt-card">
+                    <div class="ix-card-shine"></div>
+                    <h3 data-i18n="ix-card-perf-h">Performance</h3>
+                    <p data-i18n="ix-card-perf-p">Optimized assets, clean layout, and smooth UX that loads fast on every device.</p>
+                </article>
+                <article class="why-card ix-tilt-card">
+                    <div class="ix-card-shine"></div>
+                    <h3 data-i18n="ix-card-detail-h">Detail Obsession</h3>
+                    <p data-i18n="ix-card-detail-p">Spacing, typography, and colors refined until it feels premium and professional.</p>
+                </article>
+                <article class="why-card ix-tilt-card">
+                    <div class="ix-card-shine"></div>
+                    <h3 data-i18n="ix-card-future-h">Future Ready</h3>
+                    <p data-i18n="ix-card-future-p">Scalable structure so you can grow the website without rebuilding from zero.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Animated tech marquee -->
+        <section class="ix-marquee-section">
+            <div class="ab-tech-marquee">
+                <div class="ab-marquee-track">
+                    <span class="ab-tech-pill">HTML5</span>
+                    <span class="ab-tech-pill">CSS3</span>
+                    <span class="ab-tech-pill">JavaScript</span>
+                    <span class="ab-tech-pill">UI/UX</span>
+                    <span class="ab-tech-pill">Responsive</span>
+                    <span class="ab-tech-pill">Performance</span>
+                    <span class="ab-tech-pill">SEO</span>
+                    <span class="ab-tech-pill">Figma</span>
+                    <span class="ab-tech-pill">Git</span>
+                    <span class="ab-tech-pill">React</span>
+                    <span class="ab-tech-pill">HTML5</span>
+                    <span class="ab-tech-pill">CSS3</span>
+                    <span class="ab-tech-pill">JavaScript</span>
+                    <span class="ab-tech-pill">UI/UX</span>
+                    <span class="ab-tech-pill">Responsive</span>
+                    <span class="ab-tech-pill">Performance</span>
+                    <span class="ab-tech-pill">SEO</span>
+                    <span class="ab-tech-pill">Figma</span>
+                    <span class="ab-tech-pill">Git</span>
+                    <span class="ab-tech-pill">React</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-contact" id="contact">
+            <div class="ix-contact-orbs">
+                <div class="ix-c-orb ix-c-orb-1"></div>
+                <div class="ix-c-orb ix-c-orb-2"></div>
+            </div>
+            <div class="contact-content">
+                <h2 class="section-title ix-reveal" data-i18n="ix-contact-title">Let's Build Your Website</h2>
+                <p class="section-lead" data-i18n="ix-contact-lead">Tell us what you need and we'll respond fast with a clean plan and clear timeline.</p>
+                <div class="process">
+                    <div class="process-step ix-tilt-card">
+                        <div class="ix-card-shine"></div>
+                        <span class="step-num">01</span>
+                        <span class="step-title" data-i18n="ix-step1-title">Brief</span>
+                        <span class="step-text" data-i18n="ix-step1-text">We collect goals, style, and content.</span>
+                    </div>
+                    <div class="process-step ix-tilt-card">
+                        <div class="ix-card-shine"></div>
+                        <span class="step-num">02</span>
+                        <span class="step-title" data-i18n="ix-step2-title">Design</span>
+                        <span class="step-text" data-i18n="ix-step2-text">We craft layout, colors, and UI.</span>
+                    </div>
+                    <div class="process-step ix-tilt-card">
+                        <div class="ix-card-shine"></div>
+                        <span class="step-num">03</span>
+                        <span class="step-title" data-i18n="ix-step3-title">Launch</span>
+                        <span class="step-text" data-i18n="ix-step3-text">We deliver a fast, polished site.</span>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <a class="hero-cta ix-pulse-btn" href="oferta.html#contact" data-i18n="ix-contact-cta">Start a project</a>
+                    <span class="contact-note" data-i18n="ix-contact-note">Or DM us: hello@hyperweb.dev</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">HyperWeb</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="oferta.html">Oferta</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="footer-contact">
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">📧</span>
+                    <span class="footer-contact-label">Email:</span>
+                    <a href="mailto:info@hyperweb.com" class="footer-contact-link">info@hyperweb.com</a>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">📞</span>
+                    <span class="footer-contact-label">Phone:</span>
+                    <a href="tel:+48123456789" class="footer-contact-link">+48 123 456 789</a>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">📍</span>
+                    <span class="footer-contact-label">Location:</span>
+                    <span class="footer-contact-link">Warsaw, Poland</span>
+                </div>
+            </div>
+            <div class="footer-meta">&copy; 2026 HyperWeb. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+        // Intersection Observer for scroll-triggered animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('ix-visible');
+                }
+            });
+        }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.ix-reveal, .ix-tilt-card, .why-card, .process-step, .stat, .bento-item').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Parallax on mouse move for hero orbs
+        document.querySelector('.Hero')?.addEventListener('mousemove', (e) => {
+            const rect = e.currentTarget.getBoundingClientRect();
+            const x = (e.clientX - rect.left) / rect.width - 0.5;
+            const y = (e.clientY - rect.top) / rect.height - 0.5;
+            
+            document.querySelectorAll('.h-orb').forEach((orb, i) => {
+                const speed = (i + 1) * 25;
+                orb.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
+            });
+        });
+    </script>
+    <script>
+        // Hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const mainNav = document.getElementById('mainNav');
+        hamburger.addEventListener('click', () => {
+            const isOpen = mainNav.classList.toggle('nav-open');
+            hamburger.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', isOpen);
+        });
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('nav-open');
+                hamburger.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+</html>

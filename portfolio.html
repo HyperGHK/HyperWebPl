@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - HyperWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-banner">
+        <svg class="copilot-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="currentColor" opacity=".3"/><path d="M9.5 8.5C9.5 7.67 10.17 7 11 7h2c.83 0 1.5.67 1.5 1.5v1c0 .83-.67 1.5-1.5 1.5h-2c-.83 0-1.5-.67-1.5-1.5v-1z" fill="currentColor"/><path d="M7 13.5C7 12.67 7.67 12 8.5 12h7c.83 0 1.5.67 1.5 1.5v2c0 .83-.67 1.5-1.5 1.5h-7c-.83 0-1.5-.67-1.5-1.5v-2z" fill="currentColor"/><circle cx="9.5" cy="14.5" r="1" fill="var(--bg-top)"/><circle cx="14.5" cy="14.5" r="1" fill="var(--bg-top)"/></svg>
+        <span data-i18n="banner">Built with <strong>GitHub Copilot</strong> — our main AI development tool</span>
+    </div>
+    <header>
+           <img src="logoHyperWeb.png" alt="logo hyper web" class="logo-img" loading="lazy">
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="mainNav">
+            <a href="index.html" data-i18n="nav-home">Home</a>
+            <a href="about.html" data-i18n="nav-about">About Us</a>
+            <a href="services.html" data-i18n="nav-services">Services</a>
+            <a href="oferta.html" data-i18n="nav-oferta">Pricing</a>
+            <a href="portfolio.html" data-i18n="nav-portfolio">Portfolio</a>
+        </nav>
+    </header>
+    <main class="pf-main">
+        <!-- ══ HERO ══ -->
+        <section class="pf-hero">
+            <div class="pf-hero-bg">
+                <div class="pf-orb pf-orb-1"></div>
+                <div class="pf-orb pf-orb-2"></div>
+                <div class="pf-orb pf-orb-3"></div>
+            </div>
+            <div class="pf-hero-content">
+                <span class="ab-eyebrow" data-i18n="pf-eyebrow">Our Team</span>
+                <h1 class="pf-headline" data-i18n="pf-h1">Meet the people behind <span class="ab-gradient-text">HyperWeb</span></h1>
+                <p class="ab-lead" data-i18n="pf-lead">Four creators. One mission: build fast, modern sites that feel premium and convert visitors into loyal customers.</p>
+                <div class="pf-hero-actions">
+                    <a class="ab-btn-primary" href="oferta.html#contact" data-i18n="pf-btn-start">Start a project</a>
+                    <span class="ab-reply-note" data-i18n="pf-reply-note">↗ We reply within 24h</span>
+                </div>
+            </div>
+            <div class="pf-hero-stats">
+                <div class="ab-stat-card">
+                    <span class="ab-stat-icon">👥</span>
+                    <span class="ab-stat-value">4</span>
+                    <span class="ab-stat-label" data-i18n="pf-stat-team">Team Members</span>
+                </div>
+                <div class="ab-stat-card">
+                    <span class="ab-stat-icon">🎯</span>
+                    <span class="ab-stat-value">50+</span>
+                    <span class="ab-stat-label" data-i18n="pf-stat-projects">Projects Done</span>
+                </div>
+                <div class="ab-stat-card">
+                    <span class="ab-stat-icon">⚡</span>
+                    <span class="ab-stat-value">100%</span>
+                    <span class="ab-stat-label" data-i18n="pf-stat-passion">Passion Driven</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ TEAM GRID ══ -->
+        <section class="pf-team">
+            <div class="pf-team-header">
+                <span class="ab-eyebrow" data-i18n="pf-crew-eyebrow">The Crew</span>
+                <h2 class="ab-section-title" data-i18n="pf-crew-title">Specialists in<br><span class="ab-gradient-text">their craft</span></h2>
+                <p class="ab-lead" data-i18n="pf-crew-lead">Each member brings a unique skill set that together forms a complete web development powerhouse.</p>
+            </div>
+
+            <div class="pf-cards">
+                <!-- Person 1 -->
+                <article class="pf-card">
+                    <div class="pf-card-glow"></div>
+                    <div class="pf-card-inner">
+                        <div class="pf-card-top">
+                            <div class="pf-avatar">
+                                <div class="pf-avatar-ring"></div>
+                                <span class="pf-avatar-icon">🎨</span>
+                            </div>
+                            <div class="pf-card-badge" data-i18n="pf-badge1">UI/UX Lead</div>
+                        </div>
+                        <h3 class="pf-name">Gabriel Wakuluk</h3>
+                        <p class="pf-role" data-i18n="pf-role1">UI/UX & Visual Direction</p>
+                        <p class="pf-bio" data-i18n="pf-bio1">Designs intuitive interfaces that users love. Obsessed with pixel-perfect layouts, color theory, and visual hierarchy that drives conversions.</p>
+                        <div class="pf-skills">
+                            <span class="pf-skill">Figma</span>
+                            <span class="pf-skill">UI Design</span>
+                            <span class="pf-skill">Prototyping</span>
+                            <span class="pf-skill">Branding</span>
+                        </div>
+                        <div class="pf-card-line"></div>
+                    </div>
+                </article>
+
+                <!-- Person 2 -->
+                <article class="pf-card">
+                    <div class="pf-card-glow"></div>
+                    <div class="pf-card-inner">
+                        <div class="pf-card-top">
+                            <div class="pf-avatar pf-avatar-2">
+                                <div class="pf-avatar-ring"></div>
+                                <span class="pf-avatar-icon">💻</span>
+                            </div>
+                            <div class="pf-card-badge" data-i18n="pf-badge2">Dev Lead</div>
+                        </div>
+                        <h3 class="pf-name">Mateusz Przybyliński</h3>
+                        <p class="pf-role" data-i18n="pf-role2">Front-End & Motion Design</p>
+                        <p class="pf-bio" data-i18n="pf-bio2">Transforms static designs into living, breathing websites. Specializes in smooth animations, responsive layouts, and clean component architecture.</p>
+                        <div class="pf-skills">
+                            <span class="pf-skill">HTML/CSS</span>
+                            <span class="pf-skill">JavaScript</span>
+                            <span class="pf-skill">Animation</span>
+                            <span class="pf-skill">React</span>
+                        </div>
+                        <div class="pf-card-line"></div>
+                    </div>
+                </article>
+
+                <!-- Person 3 -->
+                <article class="pf-card">
+                    <div class="pf-card-glow"></div>
+                    <div class="pf-card-inner">
+                        <div class="pf-card-top">
+                            <div class="pf-avatar pf-avatar-3">
+                                <div class="pf-avatar-ring"></div>
+                                <span class="pf-avatar-icon">⚙️</span>
+                            </div>
+                            <div class="pf-card-badge" data-i18n="pf-badge3">Tech Lead</div>
+                        </div>
+                        <h3 class="pf-name">Aleks Sobieski</h3>
+                        <p class="pf-role" data-i18n="pf-role3">Systems & Performance</p>
+                        <p class="pf-bio" data-i18n="pf-bio3">Optimizes every millisecond. Builds scalable architectures, handles deployment pipelines, and ensures every site runs at blazing speed.</p>
+                        <div class="pf-skills">
+                            <span class="pf-skill">Performance</span>
+                            <span class="pf-skill">SEO</span>
+                            <span class="pf-skill">DevOps</span>
+                            <span class="pf-skill">Node.js</span>
+                        </div>
+                        <div class="pf-card-line"></div>
+                    </div>
+                </article>
+
+                <!-- Person 4 -->
+                <article class="pf-card">
+                    <div class="pf-card-glow"></div>
+                    <div class="pf-card-inner">
+                        <div class="pf-card-top">
+                            <div class="pf-avatar pf-avatar-4">
+                                <div class="pf-avatar-ring"></div>
+                                <span class="pf-avatar-icon">✍️</span>
+                            </div>
+                            <div class="pf-card-badge" data-i18n="pf-badge4">Creative Lead</div>
+                        </div>
+                        <h3 class="pf-name">Damian Drożyński</h3>
+                        <p class="pf-role" data-i18n="pf-role4">Content & Brand Voice</p>
+                        <p class="pf-bio" data-i18n="pf-bio4">Crafts compelling copy that connects with audiences. Builds brand identities, writes conversion-focused content, and shapes the narrative strategy.</p>
+                        <div class="pf-skills">
+                            <span class="pf-skill">Copywriting</span>
+                            <span class="pf-skill">Strategy</span>
+                            <span class="pf-skill">Branding</span>
+                            <span class="pf-skill">Social</span>
+                        </div>
+                        <div class="pf-card-line"></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ══ WORKFLOW ══ -->
+        <section class="pf-workflow">
+            <div class="pf-workflow-header">
+                <span class="ab-eyebrow" data-i18n="pf-wf-eyebrow">How We Work</span>
+                <h2 class="ab-section-title" data-i18n="pf-wf-title">From idea to <span class="ab-gradient-text">launch</span></h2>
+            </div>
+            <div class="pf-steps">
+                <div class="pf-step">
+                    <span class="pf-step-num">01</span>
+                    <h3 data-i18n="pf-wf1-h">Discovery</h3>
+                    <p data-i18n="pf-wf1-p">We learn your goals, audience, and vision to create a solid foundation.</p>
+                </div>
+                <div class="pf-step">
+                    <span class="pf-step-num">02</span>
+                    <h3 data-i18n="pf-wf2-h">Design</h3>
+                    <p data-i18n="pf-wf2-p">Alex crafts the visuals while Julia shapes the messaging and content.</p>
+                </div>
+                <div class="pf-step">
+                    <span class="pf-step-num">03</span>
+                    <h3 data-i18n="pf-wf3-h">Develop</h3>
+                    <p data-i18n="pf-wf3-p">Ola builds it to life with animations. Kamil optimizes for peak performance.</p>
+                </div>
+                <div class="pf-step">
+                    <span class="pf-step-num">04</span>
+                    <h3 data-i18n="pf-wf4-h">Launch</h3>
+                    <p data-i18n="pf-wf4-p">Final QA, deployment, and handoff — your site goes live, fast and polished.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ CTA ══ -->
+        <section class="pf-cta">
+            <div class="pf-cta-glow"></div>
+            <div class="pf-cta-content">
+                <h2 data-i18n="pf-cta-h">Ready to work with us?</h2>
+                <p data-i18n="pf-cta-p">Let's build something extraordinary together. Drop us a message and we'll get back to you within 24 hours.</p>
+                <a class="ab-btn-primary" href="oferta.html#contact" data-i18n="pf-cta-btn">Start your project →</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">HyperWeb</div>
+                <div class="footer-links">
+                    <a href="index.html" data-i18n="footer-home">Home</a>
+                    <a href="about.html" data-i18n="footer-about">About</a>
+                    <a href="services.html" data-i18n="footer-services">Services</a>
+                    <a href="oferta.html" data-i18n="footer-oferta">Oferta</a>
+                    <a href="portfolio.html" data-i18n="footer-portfolio">Portfolio</a>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📧</span>
+                        <span class="footer-contact-label">Email:</span>
+                        <a href="mailto:info@hyperweb.com" class="footer-contact-link">info@hyperweb.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span class="footer-contact-label">Phone:</span>
+                        <a href="tel:+48123456789" class="footer-contact-link">+48 123 456 789</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span class="footer-contact-label">Location:</span>
+                        <span class="footer-contact-link">Warsaw, Poland</span>
+                    </div>
+                </div>
+                <div class="footer-meta" data-i18n="footer-copy">© 2026 HyperWeb. All rights reserved.</div>
+        </div>
+    </footer>
+    <script>
+        // Hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const mainNav = document.getElementById('mainNav');
+        hamburger.addEventListener('click', () => {
+            const isOpen = mainNav.classList.toggle('nav-open');
+            hamburger.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', isOpen);
+        });
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('nav-open');
+                hamburger.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+</html>
